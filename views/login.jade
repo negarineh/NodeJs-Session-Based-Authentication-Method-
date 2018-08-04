@@ -1,0 +1,20 @@
+extends layout
+
+block content
+ .container
+   h1 Login
+   p.lead
+     form(role='form', action='/login', method='post')
+       .form-group
+         label(for='username') Username
+         input.form-control(type='text', id='username', name='username', placeholder='enter a username')
+         label(id='alert') #{message}
+       .form-group
+         label(for='password') Password
+         input.form-control(type='password', id='password', name='password', placeholder='enter a password')
+         label(id='alert') #{message}
+         br
+         br
+       button.btn.btn-primary(type='submit') Submit
+        &nbsp;
+       a.btn.btn-default(role='button', href='/') Cancel

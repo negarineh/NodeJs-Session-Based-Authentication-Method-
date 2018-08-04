@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  .container
+   h1 #{title}
+   p.lead
+     a(href='/login')  Login
+     .form-group
+     | Sign in with your account. Don’t have one?
+     .form-group
+     br
+     a(href='/signup')  Register Now
