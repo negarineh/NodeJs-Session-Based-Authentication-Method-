@@ -29,3 +29,5 @@ Open [http://localhost:3000](http://localhost:3000) in the browser.<br>
 All routes are available in 'app' directory and can test through Postman(https://www.getpostman.com/apps)
 
 note: After logout, you are not authorize to see '/protected' url 
+
+[![Build Status](https://travis-ci.org/negarineh/NodeJs-Session-Based-Authentication-Method-.svg?branch=master)](https://travis-ci.org/negarineh/NodeJs-Session-Based-Authentication-Method-)
