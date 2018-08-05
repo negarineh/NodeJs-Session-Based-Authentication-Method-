@@ -26,7 +26,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) in the browser.<br>
-All routes are available in 'app' directory and can test through Postman(https://www.getpostman.com/apps)
+All routes are available in 'app' file and can test through Postman(https://www.getpostman.com/apps)
 
 note: After logout, you are not authorize to see '/protected' url 
 
